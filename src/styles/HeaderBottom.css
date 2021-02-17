@@ -1,0 +1,26 @@
+.header_bottom_container {
+  margin: 0 5em;
+  color: white;
+}
+
+.header_down_arrow {
+  width: 55px;
+  margin: 1em auto;
+  opacity: 0.9;
+}
+
+.header_action_button,
+.btn {
+  background: none;
+  border: 2px white solid;
+  padding: 0.5em;
+  border-radius: 9px;
+  width: 49%;
+  color: white;
+}
+
+.btn:hover,
+.header_action_button:hover {
+  background-color: white;
+  color: black;
+}

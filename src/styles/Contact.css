@@ -1,0 +1,13 @@
+.contact_container {
+  width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .contact_options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    margin: auto;
+  }
+}
