@@ -1,13 +1,7 @@
 import React from 'react'
 import './styles/Nav.css'
 import IconButton from '@material-ui/core/IconButton';
-
-// Import images
 import profile_pic from './img/profile_pic.jpeg'
-import download from './img/download-white.svg'
-import folder from './img/folder-white.svg'
-import person from './img/person-white.svg'
-import phone from './img/phone-white.svg'
 import GetAppIcon from '@material-ui/icons/GetApp';
 import FolderIcon from '@material-ui/icons/Folder';
 import PersonIcon from '@material-ui/icons/Person';

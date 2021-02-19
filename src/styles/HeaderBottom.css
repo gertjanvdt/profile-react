@@ -9,18 +9,6 @@
   opacity: 0.9;
 }
 
-.header_action_button,
-.btn {
-  background: none;
-  border: 2px white solid;
-  padding: 0.5em;
-  border-radius: 9px;
-  width: 49%;
-  color: white;
-}
-
-.btn:hover,
-.header_action_button:hover {
-  background-color: white;
-  color: black;
+.header_down_arrow * svg {
+  fill: white;
 }
