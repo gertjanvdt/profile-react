@@ -1,9 +1,9 @@
 import React from 'react'
 import './styles/About.css';
-import Button from './Button'
+import GetAppIcon from '@material-ui/icons/GetApp';
+import Button from '@material-ui/core/Button';
 import SectionHeader from './SectionHeader'
 import full_pic from './img/gvandertoorn.jpg'
-import download from './img/download-black.svg'
 
 function About() {
     return (
@@ -46,13 +46,17 @@ function About() {
                     <br />Download my CV here to see more of my past experience and
                     education.
                     </p>
-                </div>
+                    
+                    <Button 
+                        variant="contained"
+                        color="default"
+                        startIcon={<GetAppIcon />}
+                        href="#"
+                    >
+                        Download my CV
+                    </Button>
 
-                <Button 
-                    img={download}
-                    text={"Download my CV"}
-                    className="cv_download"
-                />
+                </div>
             </div>
 
 
