@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  .portfolioGrid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolioGrid_container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

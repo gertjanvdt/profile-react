@@ -1,4 +1,6 @@
 import React from 'react'
+import HomeIcon from '@material-ui/icons/Home';
+import IconButton from '@material-ui/core/IconButton';
 import './styles/Footer.css'
 import home from './img/home-white.svg'
 
@@ -10,9 +12,9 @@ function Footer() {
             </div>
 
             <div>
-                <a href="#home">
-                    <img src={home} alt="" className="home_link"/>
-                </a>
+                <IconButton href="#home"  style={ {backgroundColor: "white"} }>
+                    <HomeIcon style={{ fill: 'white' }, {fontSize: 40 }}/>
+                </IconButton>
             </div>
             
         </div>

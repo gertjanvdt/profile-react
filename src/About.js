@@ -11,6 +11,7 @@ function About() {
             
             < SectionHeader 
                 header={"About Me"}
+                subheader={"Find out more about me"}
             />
 
             <div className="about_grid_container">

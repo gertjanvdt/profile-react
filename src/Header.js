@@ -5,7 +5,7 @@ import './styles/Header.css'
 
 function Header() {
     return (
-        <div className="header_container">
+        <div className="header_container" id="home">
             <Nav/>
             <HeaderBottom />
         </div>

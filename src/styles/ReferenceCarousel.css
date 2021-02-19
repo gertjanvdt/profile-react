@@ -1,0 +1,46 @@
+.slider_container {
+  background-image: url("../img/desk.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider_layer {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.slider {
+  width: 90%;
+  margin: auto;
+}
+
+.slide {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.slide > * {
+  margin-bottom: 10px;
+}
+
+.slide > img {
+  width: 50px;
+  border-radius: 50%;
+  border: 2px white solid;
+}
+
+.slide > p {
+  font-weight: bold;
+}
+
+.slide > p {
+  width: 80%;
+}

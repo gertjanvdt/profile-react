@@ -40,17 +40,14 @@ function Contact() {
                 subheader={"Let's connect! There are many ways to get in touch with me:"}
             />
             <div className="contact_options">
+                {contacts.map(item => (
+                    <Button
+                    href={item.href}
+                    img={item.img}
+                    text={item.text}
+                    />
 
-            {contacts.map(item => (
-                <Button
-                href={item.href}
-                img={item.img}
-                text={item.text}
-                />
-
-            ))}
-             
-
+                ))}
             </div>
             
         </div>
