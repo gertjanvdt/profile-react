@@ -1,6 +1,5 @@
 import React from 'react'
 import './styles/HeaderBottom.css'
-import down_arrow from './img/down-arrow.svg'
 
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
